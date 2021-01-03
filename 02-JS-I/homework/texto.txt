@@ -1,0 +1,11 @@
+
+
+Variable: permite almacenar un valor que voy a utilizar luego.
+
+string: es un tipo de dato, hace referencia a los caracteres.
+
+funciones: son estructuras que nos permiten hacen una operacion con un dato de entrada, para luego devolver el resultado de la operacion.
+
+Declaracion if: es una herramienta que permite ejecutar operaciones dependiendo de ciertas circunstancias o condiciones especificas, que nosotros le especifiquemos a la computadora.
+
+Booleanos: son un tipo de dato que sirve para indicar 2 tipos de estados, ya sea 1 o 0, encendido o apagado, verdadero o falso, etc.
