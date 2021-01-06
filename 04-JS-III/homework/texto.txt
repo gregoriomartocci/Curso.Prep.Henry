@@ -1,0 +1,6 @@
+
+
+Array: un array es una herramienta que nos permite almacenar varios datos y de diferentes tipos, contiene casillas en donde
+le podemos decir que dato queremos guardar, para acceder a la informacion contamos con ciclos for que nos permiten iterar sobre
+el arreglo para leer la informacion almacenada. Tambien tenemos operarciones para agregar quitar al final, agregar y quitar al principio,
+y demas operaciones.
