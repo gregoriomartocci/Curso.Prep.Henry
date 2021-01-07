@@ -1,0 +1,32 @@
+h1 {
+  color: lightgray;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+img {
+  width: 100%;
+}
+
+ul{
+    list-style: none;
+    margin: auto;
+    padding: 20px;
+}
+
+#thirdDiv {
+  padding: 50px;
+  border: 1px solid gray;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
