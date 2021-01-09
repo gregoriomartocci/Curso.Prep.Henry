@@ -24,7 +24,7 @@ function agregarPropiedad(objeto, property) {
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
 
-  objeto.propiedad = null;
+  objeto[property] = null;
 
   return objeto;
 }
@@ -35,7 +35,7 @@ function invocarMetodo(objeto, metodo) {
   // Nada necesita ser devuelto ("returned")
   // Tu código:
 
-  objeto[metodo];
+  objeto[metodo]();
 }
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
@@ -101,7 +101,7 @@ function verificarPassword(usuario, password) {
   // De lo contrario, devuelve "false"
   // // Tu código:
 
-  if (usuario[password] === "password") {
+  if (usuario['password'] === password) {
     return true;
   } else {
     return false;
@@ -113,7 +113,7 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Devuelve el objeto
   // Tu código:
 
-  usuario[nuevaPassword] = "nuevaPassword";
+  usuario.password = nuevaPassword;
 
   return usuario;
 }
@@ -136,7 +136,7 @@ function pasarUsuarioAPremium(usuarios) {
   // Tu código:
 
   for (i = 0; i < usuarios.length; i++) {
-    usuarios[i].usuario.esPremium = true;
+    usuarios[i].esPremium = true;
   }
 
   return usuarios;
@@ -153,10 +153,10 @@ function sumarLikesDeUsuario(usuario) {
   var total = 0;
 
   for (i = 0; i < usuario.posts.length; i++) {
-    total = total + usuario.posts[i].post.likes;
+    total = total + usuario.posts[i].likes;
   }
 
-  return suma;
+  return total;
 }
 
 function agregarMetodoCalculoDescuento(producto) {
