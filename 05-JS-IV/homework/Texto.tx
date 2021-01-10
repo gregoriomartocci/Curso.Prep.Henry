@@ -1,0 +1,13 @@
+
+
+Los objetos son estructuras de datos que permiten almacenar informacion. A diferencia de los arreglos los objetos almacenan claves y valores
+lo que hace que sean mas faciles de acceder al contenido. la forma de cosntruir objetos se asemeja mas fielmente a la representacion de objetos 
+del mundo real. Por ejemplo podriamos crear un objeto Persona cuyos atributos sean nombre altura, etc. Seria mas complicado representar estas entidades
+con arreglos.
+
+Los metodos son simplemente funciones que se enecuentran DENTRO de un objeto.
+
+for in es una estructura de control igual que el ciclo for pero creada para iterar sobre los objetos.
+
+para acceder a datos individuales dentro del objeto podemos utilizar tanto el dot notation como el braket notation. Por ejemplo
+Persona.nombre o tmb Persona[nombre]
