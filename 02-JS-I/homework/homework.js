@@ -113,7 +113,7 @@ function redondearHaciaArriba(num) {
 }
 
 function agregarSimboloExclamacion(str) {
-  return str + "!"
+  return str + "!";
 }
 
 function combinarNombres(nombre, apellido) {
